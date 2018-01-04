@@ -7,10 +7,10 @@ webpage = requests.get(url)
 soup = BeautifulSoup(webpage.text, 'html.parser')
 from twilio.rest import TwilioClient
 
-account_sid = 'ACeedbb0e2ed746bef196d6a56f3a3464e'
-auth_token = 'b2ae7256c8c4336f09a96d64b807d765'
-twilio_phone_number = '+19712647006'
-my_phone_number = '+19715335857'
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+twilio_phone_number = '+xxxxxxxxxx'
+my_phone_number = '+xxxxxxxx'
 
 webpage = requests.get(url)
 soup = BeautifulSoup(webpage.text, 'html.parser')
